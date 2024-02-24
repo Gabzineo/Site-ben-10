@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(19, 17, 17);
+}
+
+header{
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+header h1{
+    color: rgb(0, 250, 0);
+    font-family: "Bungee";
+    font-weight: normal;
+    
+}
+
+header nav li{
+    display: inline-flex;
+    margin-right: 14px;
+    font-family: 'Bungee';
+    font-weight: normal;
+    margin: 0 60px;
+}
+header nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav li a:hover{
+    color: rgb(0, 255, 13);
+    transition-delay: 0.5;
+    transform: scale(1.06);
+    transition: .2s;
+    
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container img{
+    height: 340px;
+    border: 6px solid;
+    color: chartreuse;
+}
+
+section .container{
+    display: flex;
+    align-items: flex-start;
+}
+
+section{
+    padding: 100px;
+}
+
+section h2{
+    margin: 0 10px;
+    text-align: center;
+    font-family: "Bungee";
+    font-weight: normal;
+    font-size: 50px;
+    color: chartreuse;
+    
+}
+
+
+section p{
+    padding: 0 100px;
+    color: #f6f6f6;
+    line-height: 22px;
+    resize: none;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+.logo img{
+    height: 100px;
+}
+
+#contato .container {
+    display: block;
+}
+
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 24px;
+    padding: 11px;
+}
+
+
+form textarea{
+   resize: none; 
+}
+
+form button{
+    background-color: rgb(0, 255, 21);
+    font-family: "Bungee";
+    font-weight: normal;
+    border: none;
+    border-radius: 40px;
+    transition: 1.01s;
+}
+
+form button:hover{
+    box-shadow: 0px 0px 8px chartreuse;
+    cursor: pointer;
+    transform: scale(1.02);
+
+}
+
+form input,textarea{
+    background-color: #f6f6f6e5;
+    border: 0;
+}
+
+form{
+
+}
